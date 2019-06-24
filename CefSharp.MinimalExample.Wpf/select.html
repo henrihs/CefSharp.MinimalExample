@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+    <select id="selector"></select>
+
+    <script>
+        var selector = document.getElementById("selector");
+        var contents;
+
+        for (let i = 1; i <= 100; i++) {
+            contents += "<option>" + i + "</option>";
+        }
+
+        selector.innerHTML = contents;
+    </script>
+</body>
+
+</html>
